@@ -1,0 +1,23 @@
+
+  <div class="row" style="margin-top: 4em">
+    <div class="col-md-12">
+      <div class="container mx-auto" style="text-align:center">
+        <h5>Hear your favorite narrator on the Chronicles directory</h5>
+      </div>
+    </div>
+    <div class="col" style="margin-top:2em">
+      <div class="row">
+        <div class="col-xs-6 col-md-2" *ngFor="let author of authors | async">
+          <div class="wrapper-main">
+            <div class="wrapper" [ngStyle]="{ 'background-image': 'url(' + author.imageURL + ')'}">.</div>
+            <div class="overlay-author"><i class="fab fa-creative-commons-sampling-plus"></i></div>
+          </div>
+          <div class="title">
+            <h6 class="name">{{author.name}}</h6>
+            <h6 class="club">{{author.club}}</h6>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>

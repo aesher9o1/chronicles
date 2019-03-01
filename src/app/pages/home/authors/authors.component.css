@@ -1,0 +1,50 @@
+h5{
+    font-size: 24px
+}
+.wrapper{
+    min-height: 160px;
+    cursor: pointer;
+    -webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.title{
+    margin-top: 1em
+}
+.name{
+    font-size: 14px
+}
+.club{
+    color:#999;
+    font-size: 13px;
+    margin-top: -0.7em;
+}
+.overlay-author{
+    position: absolute;
+    top: 28%;
+    left: 40%;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+.wrapper-main{
+    cursor: pointer
+}
+
+.fab{
+    font-size: 42px;
+    color: #002138
+}
+
+
+.wrapper-main:hover .wrapper{
+    -webkit-filter: grayscale(100%) blur(2px);
+    filter: grayscale(100%) blur(2px);
+    
+}
+
+.wrapper-main:hover .overlay-author {
+    opacity: 1;
+}
+

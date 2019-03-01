@@ -1,0 +1,125 @@
+.avatar {
+    vertical-align: middle;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 2.5em;
+}
+
+.message {
+    width: 100% !important;
+    padding-right: 50px;
+    background: #f7f7f7;
+    padding: 10px 10px;
+    border: none;
+    font-weight: 400;
+    font-size: 1rem;
+    display: block;
+}
+
+.content{
+    cursor: pointer;
+}
+
+.message:focus {
+    outline-color: transparent;
+    outline-style: none;
+}
+
+.bio {
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    font-weight: 400;
+    margin-top: -4em;
+}
+
+.bio-content {
+    margin-top: 4em;
+    text-align: center;
+}
+
+p {
+    line-height: 1.9;
+    color: #6c757d;
+    font-size: 15px
+}
+
+.read {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 13px;
+    color: white;
+}
+
+.links {
+    margin-top: 2em
+}
+
+li {
+    align-self: auto;
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    padding: 0px 15px;
+}
+
+.title {
+    color: rgb(161, 161, 161);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    display: block
+}
+.buttons{
+    display: block;
+    object-fit: cover;
+    height: 300px;
+    float: left
+}
+
+.blog-img {
+    display: block;
+    height: 300px;
+    object-fit: cover;
+    -webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.buttons:hover .blog-img{
+    -webkit-filter: grayscale(100%) blur(2px);
+    filter: grayscale(100%) blur(2px);
+}
+
+.blog-header {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.short-desc {
+    margin-top: 1em;
+    color: #878787;
+    font-size: 14px;
+    line-height: 2
+}
+
+.credits {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+.linebottom {
+    border-bottom: 2px solid #e9e9e9;
+    padding-bottom:0.5em 
+}
+
+a {
+    text-decoration: none
+}

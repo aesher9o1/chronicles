@@ -1,0 +1,88 @@
+.carousel .carousel-item {
+    height: 70vh!important;
+    margin-top: 2em;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      
+  }
+  .container{
+      height: 30vh!important
+  }
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .4;
+}
+.text{
+    position: absolute;
+    top: 30vh;
+    left: 3em;
+}
+h3{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400
+}
+h5{
+    font-family: 'Raleway', sans-serif;
+}
+
+h6{
+    margin-top: 1.5em;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #777777;
+}
+p{
+    margin-top: 1em;
+    line-height: 30px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.intro{
+    margin-top:4em
+}
+
+.col-md-4{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic1{
+background-image: url("https://images.wallpaperscraft.com/image/couple_walk_top_travel_64555_1920x1080.jpg");
+height: 400px;
+background-size: cover
+}
+
+.pic2{
+    background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2014/02/14/255795/0b6ccd76932e1746e7e3b4645784653c-700.jpg");
+    height: 400px;
+    background-size: cover;
+    
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    padding: 1em;
+    color: white 
+ }
+
+ .title{
+     color: rgb(161, 161, 161);
+     font-size: 11px;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     margin-bottom: 10px;
+     display: block
+ }
