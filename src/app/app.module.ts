@@ -10,7 +10,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './pages/home/home.component';
-import { FooterComponent } from './pages/home/footer/footer.component';
+import { FooterComponent } from './pages/footer/footer.component';
 import { NavbarComponent } from './pages/navbar/navbar.component';
 import { HeroTabComponent } from './pages/home/hero-tab/hero-tab.component';
 import { BlogsComponent } from './pages/home/blogs/blogs.component';
