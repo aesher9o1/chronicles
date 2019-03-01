@@ -24,7 +24,9 @@ export class BlogsComponent implements OnInit {
   }
 
   bottomSheetTrigger(item) {
-    this.lyricsSheet.open(LyricsSheetComponent)
+    this.lyricsSheet.open(LyricsSheetComponent,{
+      data: item
+    })
   }
 
 }
