@@ -3,3 +3,10 @@
     font-family: "Raleway";
     margin-top: 2em
 }
+
+
+button{
+    position: absolute;
+    right: 43%;
+
+}

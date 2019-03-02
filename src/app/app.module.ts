@@ -4,7 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
-
+import {MatButtonModule} from '@angular/material/button';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
@@ -43,7 +43,8 @@ import { OwlModule } from 'ngx-owl-carousel';
     AngularFireModule.initializeApp(environment.config, 'config'),
     MatBottomSheetModule,
     HttpClientModule,
-    OwlModule
+    OwlModule,
+    MatButtonModule
 
   ],
   providers: [],

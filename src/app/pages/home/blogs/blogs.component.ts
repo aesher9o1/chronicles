@@ -6,8 +6,6 @@ import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { LyricsSheetComponent } from 'src/app/components/lyrics-sheet/lyrics-sheet.component';
 
 
-
-
 @Component({
   selector: 'app-blogs',
   templateUrl: './blogs.component.html',
@@ -25,7 +23,8 @@ export class BlogsComponent implements OnInit {
 
   bottomSheetTrigger(item) {
     this.lyricsSheet.open(LyricsSheetComponent,{
-      data: item
+      data: item,
+      closeOnNavigation: true
     })
   }
 
