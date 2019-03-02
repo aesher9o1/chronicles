@@ -17,15 +17,15 @@ export class FacebookComponent implements OnInit {
 
   ngOnInit() {
 
-    //this.photos.getPhotos().subscribe();
+    
 
-      this.photos.getPhotos().subscribe(data => {
-      var facebookImages = data["photos"]["data"];
-      for (var i = 0; i < facebookImages.length; i++) {
-        this.mySlideImages[i] = facebookImages[i]["images"][0]["source"];
-      }
-      this.fetched = true;
-    });
+    //   this.photos.getPhotos().subscribe(data => {
+    //   var facebookImages = data["photos"]["data"];
+    //   for (var i = 0; i < facebookImages.length; i++) {
+    //     this.mySlideImages[i] = facebookImages[i]["images"][0]["source"];
+    //   }
+    //   this.fetched = true;
+    // });
 
   }
 
