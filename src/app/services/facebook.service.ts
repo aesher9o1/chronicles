@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 export class FacebookService {
   constructor(private http: HttpClient) { }
 
-  facebook_url = "https://graph.facebook.com/v3.2/2158172151102570?fields=photos{images}&access_token=EAAhwBOXgDZCEBAJLYwupUAvn9brphNkXTR0hyJjChHOFbD3Dg4qYdWUVCZA4abSG3QNDDEQ6Do5cZAyolMChh27DwSvjBuyCuWdeN7KkZBFcuRZBZAvaYOsKZBHVLYM7EjSM6pb4gcCEz29dssSs3hC7VwWPT2oqvms6v8ADoTBZCOhcs6SbZC4lVRmO0PUCt1fsZD";
+  facebook_url = "https://graph.facebook.com/v3.2/524103774765675?fields=photos{images}&access_token=EAAHcq2tSAmsBADbPGGVKWwyhrJRTOe6ebY3g4qeSdHCDDDi1BI9NUU6WmNUcSS4hgkZAPCuInhNtZCffhTs2bHfZAAAh0hWkxDnbjL9QOw5L8PqWuTHthiMBTw58usZBcXA9ZCiLwzGM05qQDzfd3mcQZCD3tPIgas6ECKieZCGBvZBnbLT1ZCbUDf8XAaZCmO5DIZD";
 
   getPhotos() {
     return this.http.get(this.facebook_url);
