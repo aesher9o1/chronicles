@@ -20,9 +20,10 @@ export class LyricsSheetComponent implements OnInit {
   constructor(@Inject(MAT_BOTTOM_SHEET_DATA) public data: any, private sanitizer: DomSanitizer) { }
   public showContent: boolean = true;
   public showLyrics: boolean = false;
+  public blog_post : String= "";
 
   ngOnInit() {
-
+    this.blog_post = this.data["post"]
   }
 
 
